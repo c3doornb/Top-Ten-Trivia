@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/gradient_background">
+
+
+    <TextView
+        android:id="@+id/credtis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:text="Created by: Chris Doornbos"
+        android:textColor="#000"
+        android:paddingRight="7dp"
+        android:paddingBottom="5dp"
+        android:textSize="11sp"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="79dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="54dp"
+        android:fontFamily="@font/game"
+        android:gravity="center"
+        android:text="Top Ten"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textScaleX="1.5"
+        android:textSize="55sp"
+        android:paddingRight="10dp"
+        android:paddingLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/plainText"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="75dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="163dp"
+        android:background="#e5dad7aa"
+        android:ems="10"
+        android:fontFamily="@font/game"
+        android:inputType="none"
+        android:text="Choose Category"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#1a1a1a"
+        android:textScaleX="1.25"
+        android:textSize="27sp" />
+
+    <Button
+        android:id="@+id/btnGeography"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="290dp"
+        android:background="@drawable/button_background"
+        android:elevation="8dp"
+        android:fontFamily="@font/game"
+        android:text="Geography"
+        android:textColor="#1a1a1a"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnHistory"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/btnGeography"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_background"
+        android:elevation="8dp"
+        android:fontFamily="@font/game"
+        android:text="History"
+        android:textColor="#1a1a1a"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnSports"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/btnHistory"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_background"
+        android:elevation="8dp"
+        android:fontFamily="@font/game"
+        android:text="Sports"
+        android:textColor="#1a1a1a"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnPop"
+        android:layout_width="300dp"
+        android:layout_height="38dp"
+        android:layout_below="@+id/btnSports"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/button_background"
+        android:elevation="8dp"
+        android:fontFamily="@font/game"
+        android:text="Music"
+        android:textColor="#1a1a1a"
+        android:textSize="24sp" />
+
+
+</RelativeLayout>

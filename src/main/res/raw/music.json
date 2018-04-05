@@ -1,0 +1,155 @@
+{
+  "category": "Music",
+  "questions": [
+    {
+      "question":"Who are the artists that sold the most albums of all time?",
+      "answers":
+    [
+        "The Beatles",
+        "Garth Brooks",
+        "Elvis Presley",
+        "Led Zappelin",
+        "Eagles",
+        "Billy Joel",
+        "Michael Jackson",
+        "Elton John",
+        "Pink Floyd",
+        "AC/DC"
+    ]},
+    {
+      "question":"What are the songs that have spent the longest time at number one of the Billboard Hot 100?",
+      "answers":
+      [
+          "One Sweet Day",
+          "Despacito",
+          "I Will Always Love You",
+          "I'll Make Love To You",
+          "Macarena",
+          "Something About the Way You Look Tonight",
+          "We Belong Together",
+          "I Gotta Feeling",
+          "Uptown Funk",
+          "The Boy Is Mine"
+      ]},
+    {
+      "question":"According to the Billboard Hot 100 Artists. Who are the greatest artists of all time?",
+      "answers":
+      [
+          "The Beatles",
+          "Madonna",
+          "Elton John",
+          "Elvis Presley",
+          "Mariah Carey",
+          "Stevie Wonder",
+          "Janet Jackson",
+          "Michael Jackson",
+          "Whitney Houston",
+          "The Rolling Stones"
+      ]},
+    {
+      "question":"Which songwriters wrote the most number-one singles?",
+      "answers":
+      [
+          "Paul McCartney",
+          "John Lennon",
+          "Max Martin",
+          "Mariah Carey",
+          "Barry Gibb",
+          "Brian Holland",
+          "Lukasz Gottwald",
+          "Larmont Dozier",
+          "James Harris",
+          "Terry Lewis"
+      ]},
+    {
+      "question":"Which artists topped the billboards for the most weeks during the 1990's?",
+      "answers":
+      [
+          "Mariah Carey",
+          "Boyz II Men",
+          "Monica",
+          "Puff Daddy",
+          "TLC",
+          "Whitney Houston",
+          "Janet Jackson",
+          "Celine Dion",
+          "Brandy",
+          "Bryan Adams"
+      ]},
+    {
+      "question":"What songs topped the billboards in the 1980's?",
+      "answers":
+      [
+          "Physical",
+          "Endless Love",
+          "Bette Davis Eyes",
+          "Every Breath You Take",
+          "Say Say Say",
+          "Eye of the Tiger",
+          "Flashdance",
+          "Ebony and Ivory",
+          "Waiting for a Girl Like You",
+          "I Love Rock and Roll"
+      ]},
+    {
+      "question":"What Queen singles spent he most time on the charts?",
+      "answers":
+      [
+          "Bohemian Rhapsody",
+          "I Want to Break Free",
+          "Crazy Little Thing Called Love",
+          "These are the Days of Our Lives",
+          "Flash",
+          "Living on My Own",
+          "We Will Rock You",
+          "Killer Queen",
+          "Bicycle Race",
+          "Don't Stop Me Now"
+      ]},
+    {
+      "question":"According to billboard, which R and B or Hip Hop artists are the greatest of all time?",
+      "answers":
+      [
+          "The Temptations",
+          "Aretha Franklin",
+          "Stevie Wonder",
+          "James Brown",
+          "Michael Jackson",
+          "Marvin Gaye",
+          "The Isley Brothers",
+          "Gladys Knight and the Pips",
+          "R Kelly",
+          "Mary J Blige"
+      ]},
+    {
+      "question":"Who are the Billboard's top women artists of all time?",
+      "answers":
+      [
+          "Madonna",
+          "Mariah Carey",
+          "Janet Jackson",
+          "Whitney Houston",
+          "Rihanna",
+          "The Supremes",
+          "Olivia Newton-John",
+          "Aretha Franklin",
+          "Katy Perry",
+          "Taylor Swift"
+      ]},
+    {
+      "question":"Which are the Billboard's top Pop songs of all time?",
+      "answers":
+      [
+          "Rihanna",
+          "Pink",
+          "Maroon 5",
+          "Katy Perry",
+          "Justin Timberlake",
+          "Britney Spears",
+          "Taylor Swift",
+          "Kelly Clarkson",
+          "Mariah Carey",
+          "Bruno Mars"
+      ]}
+  ]
+}

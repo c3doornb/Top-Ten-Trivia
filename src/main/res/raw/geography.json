@@ -1,0 +1,155 @@
+{
+  "category": "Geography",
+  "questions": [
+    {
+      "question":"What are the largest islands in the world by area?",
+      "answers":
+    [
+      "Greenland",
+      "New Guinea",
+      "Borneo",
+      "Madagascar",
+      "Baffin Island",
+      "Sumatra",
+      "Honshu",
+      "Victoria Island",
+      "Great Britain",
+      "Ellesmere Island"
+    ]},
+    {
+      "question":"What are the largest states in the USA?",
+      "answers":
+    [
+      "Alaska",
+      "Texas",
+      "California",
+      "Montana",
+      "New Mexico",
+      "Arizona",
+      "Nevada",
+      "Colorado",
+      "Oregon",
+      "Wyoming"
+    ]},
+    {
+      "question": "What are the most populated cities in the USA?",
+      "answers":
+    [
+      "New York",
+      "Los Angeles",
+      "Chicago",
+      "Houston",
+      "Philadelphia",
+      "Phoenix",
+      "San Antonio",
+      "San Diego",
+      "Dallas",
+      "San Jose"
+    ]},
+    {
+      "question":  "What are the most populated cities in the world?",
+      "answers":
+    [
+      "Tokyo",
+      "Seoul",
+      "Guangzhou",
+      "Mexico City",
+      "Delhi",
+      "Mumbai",
+      "New York",
+      "Sao Paulo",
+      "Manila",
+      "Shanghai"
+    ]},
+    {
+      "question":"What are the most populated countries in the world?",
+      "answers":
+    [
+        "China",
+        "India",
+        "United States",
+        "Indonesia",
+        "Brazil",
+        "Pakistan",
+        "Nigeria",
+        "Bangladesh",
+        "Russia",
+        "Mexico"
+    ]},
+    {
+      "question": "What are the largest countries in the world by area?",
+      "answers":
+    [
+        "Russia",
+        "Canada",
+        "United States",
+        "China",
+        "Brazil",
+        "Australia",
+        "India",
+        "Argentina",
+        "Kazakhstan",
+        "Algeria"
+    ]},
+    {
+      "question": "What are the richest countries in the world?",
+      "answers":
+    [
+        "Qatar",
+        "Luxembourg",
+        "Singapore",
+        "Brunei",
+        "Ireland",
+        "Norway",
+        "Kuwait",
+        "UAE",
+        "Switzerland",
+        "Hong Kong"
+    ]},
+    {
+      "question": "What countries have the highest Muslim population?",
+      "answers":
+    [
+        "Indonesia",
+        "Pakistan",
+        "India",
+        "Bangladesh",
+        "Nigeria",
+        "Iran",
+        "Turkey",
+        "Egypt",
+        "Algeria",
+        "Sudan"
+    ]},
+    {
+      "question": "What countries have the highest Christian population?",
+      "answers":
+    [
+        "United States",
+        "Brazil",
+        "Mexico",
+        "Philippines",
+        "Nigeria",
+        "Russia",
+        "Congo",
+        "Italy",
+        "Ethiopia",
+        "Germany"
+    ]},
+    {
+      "question":  "What are the oldest continuously inhabited cities in the world?",
+      "answers":
+    [
+        "Damascus",
+        "Jericho",
+        "Aleppo",
+        "Athens",
+        "Argos",
+        "Plovdiv",
+        "Byblos",
+        "Sidon",
+        "Rayy",
+        "Jerusalem"
+    ]}
+  ]
+}

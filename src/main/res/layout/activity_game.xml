@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameActivity"
+    android:background="@drawable/gradient_background">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/white_border"
+        android:ems="10"
+        android:hint="Enter guess here."
+        android:inputType="textPersonName"
+        android:paddingLeft="10dp"
+        app:layout_constraintStart_toEndOf="@+id/btnFreebie"
+        app:layout_constraintTop_toBottomOf="@+id/tvQuestion"
+        android:focusable="true"
+        android:focusableInTouchMode="true" />
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        style="@android:style/Widget.AutoCompleteTextView"
+        android:layout_width="match_parent"
+        android:layout_height="76dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="8dp"
+        android:background="#e5dad7aa"
+        android:ems="10"
+        android:fontFamily="@font/game"
+        android:inputType="none"
+        android:text="Question Goes Here"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        android:textColor="#1a1a1a"
+        android:textScaleX="1.25"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"/>
+
+    <RelativeLayout
+        android:id="@+id/questionBox"
+        android:layout_width="match_parent"
+        android:layout_height="318dp"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/tvQuestion"
+        android:layout_marginTop="28dp"
+        android:background="@drawable/answer_background"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText">
+
+        <TextView
+            android:id="@+id/tvAnswer1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingLeft="10dp"
+            android:text="1) "
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvAnswer2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvAnswer1"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="2) "
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvAnswer3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvAnswer2"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="3) "
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvAnswer4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvAnswer3"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="4 "
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvAnswer5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvAnswer4"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="5) "
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvAnswer6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvAnswer5"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="6) "
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvAnswer7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvAnswer6"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="7) "
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvAnswer8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvAnswer7"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="8) "
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvAnswer9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvAnswer8"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="9) "
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp" />
+
+        <TextView
+            android:id="@+id/tvAnswer10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/tvAnswer9"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:text="10) "
+            android:textColor="@android:color/background_dark"
+            android:textSize="16dp" />
+        />
+
+
+    </RelativeLayout>
+
+    <ImageButton
+        android:id="@+id/btnGuess"
+        android:layout_width="wrap_content"
+        android:layout_height="47dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/editText"
+        app:layout_constraintTop_toTopOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@android:drawable/ic_media_play"
+        android:layout_marginTop="3dp" />
+
+    <Button
+        android:id="@+id/btnCategories"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Categories"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/btnNextQuestion"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+    <Button
+        android:id="@+id/btnNextQuestion"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/btnCategories"
+        android:text="Another Question"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"/>
+
+
+    <Button
+        android:id="@+id/btnFreebie"
+        android:layout_width="70dp"
+        android:layout_height="47dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:text="Get Freebie"
+        android:textSize="12sp"
+        app:layout_constraintBottom_toBottomOf="@+id/editText"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/editText"
+        app:layout_constraintVertical_bias="0.0"
+        app:layout_constraintEnd_toStartOf="@id/editText"
+        android:layout_marginTop="3dp" />
+
+</android.support.constraint.ConstraintLayout>
