@@ -17,6 +17,7 @@ import java.io.InputStream;
 
 public class GameActivity extends AppCompatActivity {
 
+    //Layout objects
     private ImageButton btnGuess;
     private Button btnCat;
     private Button btnNext;
@@ -26,6 +27,9 @@ public class GameActivity extends AppCompatActivity {
     private TextView[] tvAnswers = new TextView[10];
 
     private EditText etGuess;
+    
+    
+    //Activity variables
     private boolean[] guessed = new boolean[10];
     private Category category;
     private Question question;
@@ -83,7 +87,7 @@ public class GameActivity extends AppCompatActivity {
             tvAnswers[i - 1] = findViewById(answerID);
         }
 
-
+        
         etGuess = findViewById(R.id.editText);
 
         //Submit Guess with enter button on keyboard

@@ -58,7 +58,7 @@ public class MainActivity extends AppCompatActivity {
         btnPop.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startGame(btnPop.getText().toString().replaceAll("\\s", ""));
+                startGame(btnPop.getText().toString());
             }
         });
     }
